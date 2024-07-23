@@ -1,37 +1,36 @@
--- Connect to the database
 \c cms_db
 
 INSERT INTO department
-    (name)
+        (name)
 VALUES
-    ('Sales'),
-    ('Engineering'),
-    ('Finance'),
-    ('Legal');
+        ('Marketing'),
+        ('Engineering'),
+        ('Business'),
+        ('Administration');
 
 INSERT INTO title_role
-    (title, salary, department_id)
+        (title, salary, department_id)
 VALUES
-    ('Sales Lead', 100000, 1),
-    ('Salesperson', 80000, 1),
-    ('Lead Engineer', 150000, 2),
-    ('Software Engineer', 120000, 2),
-    ('Account Manager', 160000, 3),
-    ('Accountant', 125000, 3),
-    ('Legal Team Lead', 250000, 4),
-    ('Lawyer', 190000, 4);
+        ('Marketing Lead', 90000, 1),
+        ('Marketing Director', 280000, 1),
+        ('Lead Engineer', 250000, 2),
+        ('Software Engineer', 120000, 2),
+        ('Account Manager', 160000, 3),
+        ('Accountant', 125000, 3),
+        ('CFO', 6250000, 4),
+        ('CEO', 23240000, 4);
 
 INSERT INTO employee
-    (first_name, last_name, role_id, manager_id)
+        (first_name, last_name, role_id, manager_id)
 VALUES
-    ('John', 'Doe', 1, NULL),
-    ('Mike', 'Chan', 2, 1),
-    ('Ashley', 'Rodriguez', 3, NULL),
-    ('Kevin', 'Tupik', 4, 3),
-    ('Kunal', 'Singh', 5, NULL),
-    ('Malia', 'Brown', 6, 5),
-    ('Sarah', 'Lourd', 7, NULL),
-    ('Tom', 'Allen', 8, 7);
+        ('Timothy', 'Dalton', 1, NULL),
+        ('Rodger', 'Moore', 2, 1),
+        ('Desmond', 'Llewelyn', 3, NULL),
+        ('Ben', 'Whishaw', 4, 3),
+        ('Pierce', 'Bronson', 5, NULL),
+        ('Naomie', 'Harris', 6, 5),
+        ('Daniel', 'Craig', 7, NULL),
+        ('Sean', 'Connery', 8, 7);
 
 
 
