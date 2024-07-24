@@ -10,7 +10,7 @@ CREATE TABLE department (
 );
 
 
-CREATE TABLE title_role (
+CREATE TABLE title_roles (
     id SERIAL PRIMARY KEY,
     title VARCHAR(30) UNIQUE NOT NULL,
     salary DECIMAL NOT NULL, 

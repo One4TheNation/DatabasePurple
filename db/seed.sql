@@ -8,7 +8,7 @@ VALUES
         ('Business'),
         ('Administration');
 
-INSERT INTO title_role
+INSERT INTO title_roles
         (title, salary, department_id)
 VALUES
         ('Marketing Lead', 90000, 1),
