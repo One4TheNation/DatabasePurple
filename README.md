@@ -2,10 +2,10 @@
 
 ## 12 SQL: Employee Tracker
 
-![Project Preview](./utils/ScreenRecording2024-06-29at9.06.24AM-ezgif.com-speed.gif)
+![Project Preview](./Assets/Screen%20Shot%202024-07-29%20at%202.22.45%20PM.png)
 
 ## Google Drive File
-https://drive.google.com/file/d/1IBTH1Wjgk1zQodgLJt-lZtfw0jG_qPyN/view?usp=drive_link
+https://drive.google.com/file/d/1Ay5GdlWe7LteROc7WxZybR9NQuPf6Qsl/view?usp=sharing
 
 ## Table of Contents
 * [License](#license)
